@@ -12,8 +12,8 @@ const userData = {
       imgUrl: "/Screenshot 2022-11-07 at 10-08-07 Screenshot.png",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
+      title: "Supabase Workout App",
+      link: "https://github.com/William-K-Azevedo/nextjs-supabase-project",
       imgUrl: "/placeholdertech.png",
     },
     {
