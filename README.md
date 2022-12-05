@@ -1,8 +1,10 @@
 # Projeto Site de Portfolio de Projetos  
 
-### Tecnologias usadas:  
--Next.Js  
--TailwindCSS  
+## Objetivo do projeto:
+- Projeto feito com intuito de publicar um portifolio com alguns projetos meus, assim como algumas informações ao meu respeito.
 
-### Sobre:   
-Site de apresentaçãp que contém alguns projetos de portfolio e algumas informações sobre mim, como contatos, stack de tecnologias e experiências.
+## Tecnologias usadas:  
+- Next.Js  
+- TailwindCSS  
+
+
