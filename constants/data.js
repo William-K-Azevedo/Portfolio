@@ -9,7 +9,7 @@ const userData = {
     {
       title: "Tailwind Master Kit",
       link: "https://tailwindmasterkit.com",
-      imgUrl: "/Screenshot 2022-11-07 at 10-08-07 Screenshot.png",
+      imgUrl: "Captura de tela de 2023-01-03 09-19-53.png",
     },
     {
       title: "Supabase Workout App",
@@ -42,7 +42,7 @@ const userData = {
       title: "Estagiário de Desenvolvimento Web Full-stack",
       company:
         "Câmara Municipal de Curitiba - Divisão de Desenvolvimento de Sistemas",
-      year: "2022",
+      year: "2022 - Atual",
       companyLink: "https://www.curitiba.pr.leg.br/",
       desc: "Auxiliando o desenvolvimento e manutenção do Sistema de Processos Administrativos Eletrônico - SPAE",
     },

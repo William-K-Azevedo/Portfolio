@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#F1F1F1] dark:bg-gray-900">
+    <div className="bg-[#F1F1F1] dark:bg-gray-900 text-black dark:text-white">
       <div className="max-w-6xl mx-auto px-4 py-10 md:py-20">
-        <div className="h-0.5 w-full bg-white dark:bg-gray-700"></div>
+        <div className="h-0.5 w-full bg-black dark:bg-white"></div>
         <div className="flex flex-col mt-8 space-y-4 md:space-y-0 md:flex-row justify-between items-center">
           <div>
             <p>&copy; William L. K. Azevedo. All Rights Reserved.</p>

@@ -19,7 +19,7 @@ const Navbar = ({ resultRef }) => {
   };
 
   return (
-    <div className="fixed z-20 bg-inherit mx-auto px-4 py-4 w-full top-0 left-0">
+    <div className="fixed z-20 bg-inherit mx-auto px-4 py-4 w-full top-0 left-0 text-black dark:text-white">
       <div className=" flex max-w-5xl md:flex-row justify-between items-center mx-auto">
         <div className="flex flex-col">
           <button className="rounded-lg p-3" onClick={() => clickHandler(0)}>

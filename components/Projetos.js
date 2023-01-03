@@ -1,26 +1,63 @@
-import React, { forwardRef } from "react";
+import React, { forwardRef, useState, useEffect } from "react";
 import userData from "../constants/data";
+import { motion } from "framer-motion";
 
 const Projetos = forwardRef((props, ref) => {
+  const [animations, setAnimations] = useState([
+    {
+      initial: { opacity: 0, x: -200 },
+      whileInView: { opacity: 1, x: 0 },
+      transition: { duration: 0.8, ease: "easeInOut" },
+    },
+    {
+      initial: { opacity: 0, y: -200 },
+      whileInView: { opacity: 1, y: 0 },
+      transition: { duration: 0.8, ease: "easeInOut" },
+    },
+    {
+      initial: { opacity: 0, x: 200 },
+      whileInView: { opacity: 1, x: 0 },
+      transition: { duration: 0.8, ease: "easeInOut" },
+    },
+    {
+      initial: { opacity: 0, y: 200 },
+      whileInView: { opacity: 1, y: 0 },
+      transition: { duration: 0.8, ease: "easeInOut" },
+    },
+  ]);
+
   return (
     <section ref={ref} className="min-h-screen flex flex-col">
-      <div className="max-w-6xl mx-auto">
+      <motion.div
+        className="max-w-6xl mx-auto"
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.8, ease: "easeInOut" }}
+      >
         <h1 className="text-center bg-red-500 text-6xl rounded-md p-3 font-bold text-gray-200 inline-block">
           Projetos
         </h1>
-      </div>
-      <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 pt-16 text-center">
+      </motion.div>
+
+      <p className="text-2xl text-gray-700 mb-4 dark:text-gray-300 pt-16 text-center">
         Clique nas imagens para acessar o repositório no GitHub:
       </p>
       <div className="py-16">
         <div className="max-w-6xl mx-auto grid grid-cols-1 gap-4 md:grid-cols-2">
           {userData.projects.map((proj, idx) => (
-            <ProjectCard
-              title={proj.title}
-              link={proj.link}
-              imgUrl={proj.imgUrl}
-              number={`${idx + 1}`}
-            />
+            <motion.div
+              initial={animations[idx % 4].initial}
+              whileInView={animations[idx % 4].whileInView}
+              transition={animations[idx % 4].transition}
+              className="p-1 bg-white rounded"
+            >
+              <ProjectCard
+                title={proj.title}
+                link={proj.link}
+                imgUrl={proj.imgUrl}
+                number={`${idx + 1}`}
+              />
+            </motion.div>
           ))}
         </div>
       </div>
