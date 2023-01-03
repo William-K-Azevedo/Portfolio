@@ -108,6 +108,7 @@ const Contato = forwardRef((props, ref) => {
                     href="https://linkedin.com/in/williamazevedo01012001"
                     className="text-black dark:text-gray-50 font-light text-sm"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
                       <svg
@@ -136,6 +137,7 @@ const Contato = forwardRef((props, ref) => {
                   href="https://github.com/William-K-Azevedo"
                   className="text-black dark:text-gray-50 font-light text-sm"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
                     <svg
