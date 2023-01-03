@@ -48,6 +48,7 @@ const Projetos = forwardRef((props, ref) => {
         <div className="max-w-6xl mx-auto grid grid-cols-1 gap-4 md:grid-cols-2">
           {userData.projects.map((proj, idx) => (
             <motion.div
+              key={idx}
               initial={animations[idx % 4].initial}
               whileInView={animations[idx % 4].whileInView}
               transition={animations[idx % 4].transition}

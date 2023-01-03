@@ -23,7 +23,7 @@ const Experiencia = forwardRef((props, ref) => {
       </h1>
       <div className="grid grid-cols-1 max-w-xl mx-auto py-16">
         {userData.experience.map((exp, idx) => (
-          <>
+          <div key={idx}>
             <motion.div
               initial={{ opacity: 0, x: -100 }}
               whileInView={{ opacity: [0, 1, 1], x: [0, 100, 0] }}
@@ -51,7 +51,7 @@ const Experiencia = forwardRef((props, ref) => {
                 <div className="w-1 h-24 bg-gray-300 dark:bg-gray-500 rounded-full -mt-2"></div>
               </div>
             )}
-          </>
+          </div>
         ))}
       </div>
     </div>
