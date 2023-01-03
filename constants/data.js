@@ -7,14 +7,14 @@ const userData = {
   address: "Curitiba - Paraná - Brasil",
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
-      imgUrl: "Captura de tela de 2023-01-03 09-19-53.png",
+      title: "Site de portfolio",
+      link: "https://github.com/William-K-Azevedo/site-projetos-de-portfolio",
+      imgUrl: "SitePortfolio.png",
     },
     {
       title: "Supabase Workout App",
       link: "https://github.com/William-K-Azevedo/nextjs-supabase-project",
-      imgUrl: "/placeholdertech.png",
+      imgUrl: "/WorkoutApp.png",
     },
     {
       title: "Portfolio",
