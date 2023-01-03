@@ -3,6 +3,8 @@ import userData from "../constants/data";
 import { motion } from "framer-motion";
 
 const Projetos = forwardRef((props, ref) => {
+  Projetos.displayName = "Projetos";
+
   const [animations, setAnimations] = useState([
     {
       initial: { opacity: 0, x: -200 },
@@ -67,7 +69,12 @@ const Projetos = forwardRef((props, ref) => {
 
 const ProjectCard = ({ title, link, imgUrl, number }) => {
   return (
-    <a href={link} className="w-full block shadow-2xl" target="_blank">
+    <a
+      href={link}
+      className="w-full block shadow-2xl"
+      target="_blank"
+      rel="noreferrer"
+    >
       <div className="relative z-10 overflow-hidden">
         <div className="h-72 object-cover">
           <img

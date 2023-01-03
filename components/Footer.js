@@ -15,6 +15,7 @@ const Footer = () => {
                 href="https://linkedin.com/in/williamazevedo01012001"
                 className="text-base font-normal text-gray-600 dark:text-gray-300"
                 target="_blank"
+                rel="noreferrer"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { Tooltip } from "@material-tailwind/react";
 
 const Stack = forwardRef((props, ref) => {
+  Stack.displayName = "Stack";
+
   return (
     <div
       ref={ref}

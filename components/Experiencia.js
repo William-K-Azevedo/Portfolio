@@ -3,6 +3,7 @@ import userData from "../constants/data";
 import { motion } from "framer-motion";
 
 const Experiencia = forwardRef((props, ref) => {
+  Experiencia.displayName = "Experiencia";
   return (
     <div ref={ref} className="min-h-screen flex flex-col text-gray-700">
       <motion.div

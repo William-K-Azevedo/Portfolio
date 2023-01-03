@@ -2,6 +2,8 @@ import React, { useState, useEffect, forwardRef, useRef } from "react";
 import { motion } from "framer-motion";
 
 const Sobre = forwardRef((props, ref) => {
+  Sobre.displayName = "Sobre";
+
   return (
     <div ref={ref}>
       <div className="flex flex-col max-w-3xl m-auto items-center justify-between py-10 min-h-screen text-black dark:text-white">

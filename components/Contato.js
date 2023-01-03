@@ -4,6 +4,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Contato = forwardRef((props, ref) => {
+  Contato.displayName = "Contato";
   return (
     <div ref={ref} className="min-h-screen flex flex-col">
       <motion.div
