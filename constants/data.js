@@ -22,9 +22,9 @@ const userData = {
       imgUrl: "/E-commerceApp.png",
     },
     {
-      title: "Soon",
-      link: "https://github.com/William-K-Azevedo",
-      imgUrl: "/Soon.png",
+      title: "URL Shortener",
+      link: "https://github.com/William-K-Azevedo/url-shortener-frontend",
+      imgUrl: "/URL-shortener.png",
     },
     {
       title: "Soon",
